@@ -1,5 +1,6 @@
 #https://euw1.api.riotgames.com/lol/summoner/v4/summoners/by-name/Wexeyen?api_key=RGAPI-d075160a-2b86-4e6a-86f0-1cc0dbd96fae
 
+#Nivel
 import requests
 from tkinter import Tk
 from tkinter import *
