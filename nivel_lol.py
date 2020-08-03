@@ -11,7 +11,7 @@ root.geometry("600x400+400+200")
 root.resizable(0,0)
 
 def API(nombre):
-    URL="https://euw1.api.riotgames.com/lol/summoner/v4/summoners/by-name/%s?api_key=RGAPI-d075160a-2b86-4e6a-86f0-1cc0dbd96fae"%nombre
+    URL="API"%nombre
     response=requests.get(URL)
     if(response.status_code==200):
         js=response.json()
